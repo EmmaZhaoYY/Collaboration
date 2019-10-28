@@ -3,6 +3,7 @@
   <IntegrateWithOtherApplication>
     <Password>qdSV(6Ze()kz</Password>
   </IntegrateWithOtherApplication>
+  <StartPage>页面1</StartPage>
   <UserServicePort>13778</UserServicePort>
   <WebSitePort>22865</WebSitePort>
 </ApplicationSettings>
