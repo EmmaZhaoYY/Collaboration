@@ -30,6 +30,31 @@
         ]
       }
     },
+    "4,43": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "ActiveReportsViewerCommand.ActiveReportsViewerCommand, ActiveReportsViewerCommand"
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
     "7,27": {
       "CellType": {
         "$type": "Forguncy.TimeCellType, Forguncy",
@@ -52,6 +77,28 @@
           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
           "SerializeProperty": "=NOW()"
         }
+      }
+    },
+    "10,27": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "ImagePath": "Application/023_edit_3.svg",
+        "BuiltIn": true,
+        "Color": "Accent 6 0"
       }
     }
   },
@@ -273,7 +320,9 @@
   },
   "Spans": [
     "4,27,2,12",
-    "7,27,2,12"
+    "7,27,2,12",
+    "10,27,9,12",
+    "4,43,2,5"
   ],
   "BackgroundPictures": [
     {
