@@ -93,44 +93,15 @@
   },
   {
     "ModuleName": "页面2",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-11-06T14:09:57.9164786+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\页面2.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "FGC_母版页",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-11-06T14:01:37.2157896+08:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "Pages\\FGC_母版页.json"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-11-06T14:08:56.2059954+08:00",
-    "ModuleType": 8,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet"
-    ]
+    "ModuleType": 8
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
