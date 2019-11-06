@@ -125,36 +125,10 @@
   },
   {
     "ModuleName": "Pages\\TestingFolder",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-11-06T13:42:45.2472003+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": []
-  },
-  {
-    "ModuleName": "页面3",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-11-06T13:43:23.9357936+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\TestingFolder\\页面3.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "renamepage",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-11-06T13:43:23.9357936+08:00",
     "ModuleType": 1
   }
 ]
