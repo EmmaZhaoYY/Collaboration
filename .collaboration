@@ -125,7 +125,16 @@
   },
   {
     "ModuleName": "a7048ae8-d3c8-4136-ae00-39002dbdc3d8",
-    "ModuleType": 14
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-11-06T14:28:49.5451243+08:00",
+    "ModuleType": 14,
+    "ToRemoveFiles": [
+      "ShareCommand"
+    ]
   },
   {
     "ModuleName": "01725a5e-d06d-454e-ba18-6b6c0e11ece4",
