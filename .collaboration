@@ -97,7 +97,16 @@
   },
   {
     "ModuleName": "FGC_母版页",
-    "ModuleType": 3
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-11-06T14:01:37.2157896+08:00",
+    "ModuleType": 3,
+    "ToRemoveFiles": [
+      "Pages\\FGC_母版页.json"
+    ]
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
