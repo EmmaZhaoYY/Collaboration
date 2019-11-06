@@ -1,99 +1,105 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TableSet>
   <Tables>
-    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
-      <Columns>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <AutoIncrement>True</AutoIncrement>
-          <ColumnType>System.Int64</ColumnType>
-          <DatabaseColumnType>System.Int64</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
-          <MaxLength>-1</MaxLength>
-          <Name>ID</Name>
-          <Required>True</Required>
-          <Unique>True</Unique>
+    <Item class="Forguncy.Model.Tables.TableFolder" assembly="Forguncy">
+      <Items>
+        <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+          <Columns>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <AutoIncrement>True</AutoIncrement>
+              <ColumnType>System.Int64</ColumnType>
+              <DatabaseColumnType>System.Int64</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>ID</Name>
+              <Required>True</Required>
+              <Unique>True</Unique>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>文本</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <Name>日期</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>FGC_Creator</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <Name>FGC_CreateDate</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>FGC_LastModifier</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <Name>FGC_LastModifyDate</Name>
+            </Item>
+          </Columns>
+          <Name>表2</Name>
+          <PrimaryKey>
+            <Item type="System.String">
+              <Value>ID</Value>
+            </Item>
+          </PrimaryKey>
+          <Weight>0</Weight>
         </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Name>文本</Name>
+        <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
+          <Columns>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <AutoIncrement>True</AutoIncrement>
+              <ColumnType>System.Int64</ColumnType>
+              <DatabaseColumnType>System.Int64</DatabaseColumnType>
+              <DefaultValue class="System.DBNull" assembly="mscorlib" />
+              <MaxLength>-1</MaxLength>
+              <Name>ID</Name>
+              <Required>True</Required>
+              <Unique>True</Unique>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>文本</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
+              <ColumnType>System.Double</ColumnType>
+              <Name>小数</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>FGC_Creator</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <Name>FGC_CreateDate</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Name>FGC_LastModifier</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
+              <ColumnType>System.DateTime</ColumnType>
+              <Name>FGC_LastModifyDate</Name>
+            </Item>
+            <Item class="Forguncy.Model.Tables.FormulaColumn" assembly="Forguncy">
+              <ColumnType>System.String</ColumnType>
+              <Formula>[文本]</Formula>
+              <Name>公式字段1</Name>
+            </Item>
+          </Columns>
+          <Name>表1</Name>
+          <PrimaryKey>
+            <Item type="System.String">
+              <Value>ID</Value>
+            </Item>
+          </PrimaryKey>
+          <Weight>1</Weight>
         </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.Double</ColumnType>
-          <Name>小数</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Name>FGC_Creator</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
-          <ColumnType>System.DateTime</ColumnType>
-          <Name>FGC_CreateDate</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Name>FGC_LastModifier</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
-          <ColumnType>System.DateTime</ColumnType>
-          <Name>FGC_LastModifyDate</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.FormulaColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Formula>[文本]</Formula>
-          <Name>公式字段1</Name>
-        </Item>
-      </Columns>
-      <Name>表1</Name>
-      <PrimaryKey>
-        <Item type="System.String">
-          <Value>ID</Value>
-        </Item>
-      </PrimaryKey>
-      <Weight>0</Weight>
-    </Item>
-    <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
-      <Columns>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <AutoIncrement>True</AutoIncrement>
-          <ColumnType>System.Int64</ColumnType>
-          <DatabaseColumnType>System.Int64</DatabaseColumnType>
-          <DefaultValue class="System.DBNull" assembly="mscorlib" />
-          <MaxLength>-1</MaxLength>
-          <Name>ID</Name>
-          <Required>True</Required>
-          <Unique>True</Unique>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Name>文本</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
-          <ColumnType>System.DateTime</ColumnType>
-          <Name>日期</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Name>FGC_Creator</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
-          <ColumnType>System.DateTime</ColumnType>
-          <Name>FGC_CreateDate</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
-          <ColumnType>System.String</ColumnType>
-          <Name>FGC_LastModifier</Name>
-        </Item>
-        <Item class="Forguncy.Model.Tables.DateExtraBingingColumn" assembly="Forguncy">
-          <ColumnType>System.DateTime</ColumnType>
-          <Name>FGC_LastModifyDate</Name>
-        </Item>
-      </Columns>
-      <Name>表2</Name>
-      <PrimaryKey>
-        <Item type="System.String">
-          <Value>ID</Value>
-        </Item>
-      </PrimaryKey>
+      </Items>
+      <Name>文件夹1</Name>
       <Weight>1</Weight>
     </Item>
     <Item class="Forguncy.Model.Tables.Table" assembly="Forguncy">
@@ -155,7 +161,6 @@
         <DataBaseType>MySql</DataBaseType>
         <SourceConnectString>Server=ffgcs08r2std;User Id=root;Password=xA123456;Database=world</SourceConnectString>
         <SourceTableName>大学报道登记信息表</SourceTableName>
-        <SourceTableSchema></SourceTableSchema>
       </ExternalDatabaseInfo>
       <Name>大学报道登记信息表</Name>
       <PrimaryKey>
@@ -163,6 +168,7 @@
           <Value>ID</Value>
         </Item>
       </PrimaryKey>
+      <Weight>3</Weight>
     </Item>
   </Tables>
 </TableSet>
