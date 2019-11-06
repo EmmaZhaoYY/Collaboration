@@ -85,7 +85,16 @@
   },
   {
     "ModuleName": "页面2",
-    "ModuleType": 1
+    "State": 2,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-11-06T13:54:35.2892104+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\页面2.json"
+    ]
   },
   {
     "ModuleName": "FGC_母版页",
@@ -129,6 +138,16 @@
   },
   {
     "ModuleName": "renamepage",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Page1",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "Sunny",
+      "Email": "Emma@mail.com"
+    },
+    "LockDateTime": "2019-11-06T13:54:35.2892104+08:00",
     "ModuleType": 1
   }
 ]
