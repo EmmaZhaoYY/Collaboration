@@ -1,0 +1,466 @@
+{
+  "Rows": {
+    "Sizes": {
+      "1": 30.0
+    },
+    "Count": 32
+  },
+  "Cols": {
+    "Count": 30
+  },
+  "Values": {
+    "1,1": "Back"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "Back",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "Enabled": true,
+            "AllowRoles": [
+              "Administrator"
+            ]
+          },
+          {
+            "Scope": 1,
+            "Enabled": true,
+            "AllowRoles": [
+              "Administrator"
+            ]
+          }
+        ]
+      }
+    },
+    "3,1": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "_2015年汽车排行榜",
+        "RowIndex": 3,
+        "ColumnIndex": 1,
+        "ColumnCount": 28,
+        "RowCount": 11,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "Name": "表格1",
+        "SqlCondition": {
+          "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+          "CompareType": 5,
+          "ColumnBindingInfo": {
+            "TableName": "_2015年汽车排行榜",
+            "ColumnName": "ID"
+          },
+          "Value": "15",
+          "Id": "436fb19c-ede0-4d98-9642-5267b984e6a5"
+        },
+        "TopCondition": null,
+        "OrderByCondition": {
+          "OrderByColumns": [
+            {
+              "ColumnBindingInfo": {
+                "TableName": "_2015年汽车排行榜",
+                "ColumnName": "_2015销量"
+              },
+              "Order": 0
+            }
+          ],
+          "Id": "0ce803ec-5687-4bd6-844c-59bb03b18ef9"
+        },
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "4,1": {
+      "BindingInfo": {
+        "TableName": "_2015年汽车排行榜",
+        "ColumnName": "车型"
+      }
+    },
+    "4,5": {
+      "BindingInfo": {
+        "TableName": "_2015年汽车排行榜",
+        "ColumnName": "品牌"
+      }
+    },
+    "4,9": {
+      "BindingInfo": {
+        "TableName": "_2015年汽车排行榜",
+        "ColumnName": "企业"
+      }
+    },
+    "4,13": {
+      "BindingInfo": {
+        "TableName": "_2015年汽车排行榜",
+        "ColumnName": "系别"
+      }
+    },
+    "4,16": {
+      "BindingInfo": {
+        "TableName": "_2015年汽车排行榜",
+        "ColumnName": "类别"
+      }
+    },
+    "4,19": {
+      "BindingInfo": {
+        "TableName": "_2015年汽车排行榜",
+        "ColumnName": "_2014销量"
+      }
+    },
+    "4,24": {
+      "BindingInfo": {
+        "TableName": "_2015年汽车排行榜",
+        "ColumnName": "_2015销量"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "HorizontalAlignment": 1,
+        "Underline": false
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Body",
+        "Center",
+        "DarkGray"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "3,1": 1,
+      "3,2": 2,
+      "3,3": 2,
+      "3,4": 2,
+      "3,5": 2,
+      "3,6": 2,
+      "3,7": 2,
+      "3,8": 2,
+      "3,9": 2,
+      "3,10": 2,
+      "3,11": 2,
+      "3,12": 2,
+      "3,13": 2,
+      "3,14": 2,
+      "3,15": 2,
+      "3,16": 2,
+      "3,17": 2,
+      "3,18": 2,
+      "3,19": 2,
+      "3,20": 2,
+      "3,21": 2,
+      "3,22": 2,
+      "3,23": 2,
+      "3,24": 2,
+      "3,25": 2,
+      "3,26": 2,
+      "3,27": 2,
+      "3,28": 3,
+      "4,1": 4,
+      "4,28": 5,
+      "5,1": 4,
+      "5,28": 5,
+      "6,1": 4,
+      "6,28": 5,
+      "7,1": 4,
+      "7,28": 5,
+      "8,1": 4,
+      "8,28": 5,
+      "9,1": 4,
+      "9,28": 5,
+      "10,1": 4,
+      "10,28": 5,
+      "11,1": 4,
+      "11,28": 5,
+      "12,1": 4,
+      "12,28": 5,
+      "13,1": 6,
+      "13,2": 7,
+      "13,3": 7,
+      "13,4": 7,
+      "13,5": 7,
+      "13,6": 7,
+      "13,7": 7,
+      "13,8": 7,
+      "13,9": 7,
+      "13,10": 7,
+      "13,11": 7,
+      "13,12": 7,
+      "13,13": 7,
+      "13,14": 7,
+      "13,15": 7,
+      "13,16": 7,
+      "13,17": 7,
+      "13,18": 7,
+      "13,19": 7,
+      "13,20": 7,
+      "13,21": 7,
+      "13,22": 7,
+      "13,23": 7,
+      "13,24": 7,
+      "13,25": 7,
+      "13,26": 7,
+      "13,27": 7,
+      "13,28": 8
+    },
+    "SheetStyle": {
+      "FontFamily": 0
+    }
+  },
+  "Spans": [
+    "4,1,1,4",
+    "4,5,1,4",
+    "4,9,1,4",
+    "4,13,1,3",
+    "4,16,1,3",
+    "4,19,1,5",
+    "4,24,1,5",
+    "5,1,9,28",
+    "1,1,1,4",
+    "3,1,1,4",
+    "3,5,1,4",
+    "3,9,1,4",
+    "3,13,1,3",
+    "3,16,1,3",
+    "3,19,1,5",
+    "3,24,1,5"
+  ],
+  "Charts": [
+    {
+      "ChartType": 17,
+      "DisplayHidden": true,
+      "ChartColorPalette": {
+        "RepeatAlgorithmTint": [
+          0.0,
+          -40.0,
+          20.0,
+          -20.0,
+          40.0,
+          -50.0,
+          30.0,
+          -30.0,
+          50.0
+        ],
+        "ColorList": [
+          "Accent 1",
+          "Accent 2",
+          "Accent 3",
+          "Accent 4",
+          "Accent 5",
+          "Accent 6"
+        ]
+      },
+      "DataSeries": [
+        {
+          "Values": [
+            750019.0,
+            367003.0,
+            315881.0,
+            300058.0,
+            120089.0,
+            300082.0,
+            296961.0,
+            252338.0,
+            285293.0,
+            237404.0,
+            171487.0,
+            124680.0,
+            127827.0,
+            265993.0,
+            125547.0,
+            "NaN",
+            293098.0,
+            19683.0,
+            111245.0,
+            83858.0
+          ],
+          "Name": "_2014销量",
+          "MarkerSize": "7,7"
+        },
+        {
+          "Values": [
+            655531.0,
+            379068.0,
+            373229.0,
+            334087.0,
+            321069.0,
+            279887.0,
+            274932.0,
+            267085.0,
+            255968.0,
+            255751.0,
+            254301.0,
+            116731.0,
+            114467.0,
+            246088.0,
+            80222.0,
+            243598.0,
+            176242.0,
+            162941.0,
+            100637.0,
+            85005.0
+          ],
+          "Name": "_2015销量",
+          "MarkerSize": "7,7"
+        }
+      ],
+      "XAxises": [
+        {
+          "Items": [
+            "五菱宏光",
+            "新朗逸",
+            "哈弗H6",
+            "轩逸",
+            "宝骏730",
+            "速腾",
+            "捷达",
+            "朗动",
+            "新桑塔纳",
+            "途观",
+            "卡罗拉",
+            "RAV4",
+            "威驰",
+            "科鲁兹",
+            "迈锐宝",
+            "全新英朗",
+            "凯越",
+            "昂科威",
+            "新君威",
+            "新君越"
+          ],
+          "UseCustomItems": true,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false,
+          "MajorTickStroke": "#868686",
+          "MajorUnit": 1.0,
+          "MinorTickStroke": "#868686",
+          "MinorUnit": 0.5
+        }
+      ],
+      "YAxises": [
+        {
+          "Items": [
+            0.0,
+            200000.0,
+            400000.0,
+            600000.0,
+            800000.0,
+            1000000.0
+          ],
+          "Orientation": 1,
+          "LabelFormatter": "General",
+          "MajorTickStroke": "#868686",
+          "MajorUnit": 200000.0,
+          "MinorTickStroke": "#868686",
+          "MinorUnit": 40000.0
+        },
+        {
+          "Orientation": 1,
+          "LabelFormatter": "General",
+          "ShowMajorGridlines": false,
+          "MajorTickStroke": "#868686",
+          "MajorUnit": 1.0,
+          "MinorTickStroke": "#868686",
+          "MinorUnit": 0.02,
+          "Visible": false,
+          "AxisPosition": 1
+        }
+      ],
+      "Legend": {},
+      "PlotArea": {},
+      "Tag": {
+        "$type": "Forguncy.Model.ChartDataMapping, Forguncy",
+        "ChartName": "Chart1",
+        "DataSeriesMapping": [
+          {
+            "SheetName": "TrendLine",
+            "ListViewName": "表格1",
+            "ListViewColumnFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+              "SerializeProperty": "=TrendLine!T5"
+            }
+          },
+          {
+            "SheetName": "TrendLine",
+            "ListViewName": "表格1",
+            "ListViewColumnFormula": {
+              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+              "SerializeProperty": "=TrendLine!Y5"
+            }
+          }
+        ],
+        "ItemsMapping": {
+          "SheetName": "TrendLine",
+          "ListViewName": "表格1",
+          "ListViewColumnFormula": {
+            "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+            "SerializeProperty": "=TrendLine!B5"
+          }
+        }
+      },
+      "Name": "Chart1",
+      "Location": "20,309",
+      "Size": "561,297"
+    }
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 7,
+      "AllowVisitedRoles": [
+        "Administrator",
+        "Piano",
+        "worker"
+      ]
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "Rows": {
+    "Count": 20,
+    "DefaultSize": 30.0
+  },
+  "Cols": {
+    "Sizes": {
+      "19": 53.0
+    },
+    "Count": 20,
+    "DefaultSize": 30.0
+  },
+  "Values": {
+    "0,17": "Administrator",
+    "1,17": "Back"
+  },
+  "AttachInfos": {
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.QueryCommand, Forguncy",
+            "TargetTableName": "汽车企业信息",
+            "SqlCondition": {
+              "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+              "Condition1": {
+                "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                "Condition1": {
+                  "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                  "Condition1": {
+                    "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
+                    "Condition1": {
+                      "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 6,
+                      "ColumnBindingInfo": {
+                        "TableName": "汽车企业信息",
+                        "ColumnName": "企业"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                        "SerializeProperty": "=大在!B2"
+                      },
+                      "Id": "aba00a11-3062-4e22-97ef-d2a44fbfca7d"
+                    },
+                    "Condition2": {
+                      "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                      "CompareType": 6,
+                      "ColumnBindingInfo": {
+                        "TableName": "汽车企业信息",
+                        "ColumnName": "联系人"
+                      },
+                      "Value": {
+                        "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                        "SerializeProperty": "=大在!B2"
+                      },
+                      "Id": "6ea95ad7-c070-4147-b2ce-b91cd3dda138"
+                    },
+                    "RelationType": 1,
+                    "Id": "0ced55d8-84c4-4e7e-bc0e-042aac4b7b5f"
+                  },
+                  "Condition2": {
+                    "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                    "CompareType": 6,
+                    "ColumnBindingInfo": {
+                      "TableName": "汽车企业信息",
+                      "ColumnName": "电话"
+                    },
+                    "Value": {
+                      "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                      "SerializeProperty": "=大在!B2"
+                    },
+                    "Id": "9d3ce6f7-a185-4829-923c-c478a3868417"
+                  },
+                  "RelationType": 1,
+                  "Id": "60be85cc-e935-4c84-b518-c6b5b9ea6b74"
+                },
+                "Condition2": {
+                  "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                  "CompareType": 6,
+                  "ColumnBindingInfo": {
+                    "TableName": "汽车企业信息",
+                    "ColumnName": "地址"
+                  },
+                  "Value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                    "SerializeProperty": "=大在!B2"
+                  },
+                  "Id": "ccd128c5-f94a-42be-9c1d-fe2d177f7124"
+                },
+                "RelationType": 1,
+                "Id": "76002f56-98df-4859-ab86-4e64bef9953f"
+              },
+              "Condition2": {
+                "$type": "ForguncyDataAccess.TextCESqlCondition, ForguncyDataAccess",
+                "CompareType": 6,
+                "ColumnBindingInfo": {
+                  "TableName": "汽车企业信息",
+                  "ColumnName": "备注"
+                },
+                "Value": {
+                  "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                  "SerializeProperty": "=大在!B2"
+                },
+                "Id": "494bbb8d-c649-400e-a437-004fdce50667"
+              },
+              "RelationType": 1,
+              "Id": "3f12154a-6e95-4e3b-a2fd-41aecc07fa9b"
+            },
+            "Params": [
+              "=B2"
+            ],
+            "ID": "6f49a4dda7c44b3395473e93227c126d"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "1,17": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "Back",
+        "ClickMode": 1,
+        "TemplateKey": "_RS_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "Enabled": true,
+            "AllowRoles": [
+              "Administrator"
+            ]
+          },
+          {
+            "Scope": 1,
+            "Enabled": true,
+            "AllowRoles": [
+              "Administrator"
+            ]
+          }
+        ]
+      }
+    },
+    "3,1": {
+      "ListViewInfo": {
+        "ShowColumnHeaderInDesigner": true,
+        "TableName": "汽车企业信息",
+        "RowIndex": 3,
+        "ColumnIndex": 1,
+        "ColumnCount": 18,
+        "RowCount": 14,
+        "ColumnOperation": 2,
+        "ShowGridLine": true,
+        "Name": "表格1",
+        "TopCondition": null,
+        "ListViewStyleName": "_RS_Medium2"
+      }
+    },
+    "4,1": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "企业"
+      }
+    },
+    "4,5": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "联系人"
+      }
+    },
+    "4,9": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "电话"
+      }
+    },
+    "4,13": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "地址"
+      }
+    },
+    "4,16": {
+      "BindingInfo": {
+        "TableName": "汽车企业信息",
+        "ColumnName": "备注"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      },
+      {
+        "HorizontalAlignment": 1,
+        "Underline": false
+      },
+      {
+        "BorderTop": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderTop": 0
+      },
+      {
+        "BorderTop": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderLeft": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": 0
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "@",
+        "Center",
+        "DarkGray",
+        "Body"
+      ],
+      "Borders": [
+        {
+          "Color": 2
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,1": 0,
+      "1,17": 1,
+      "3,1": 2,
+      "3,2": 3,
+      "3,3": 3,
+      "3,4": 3,
+      "3,5": 3,
+      "3,6": 3,
+      "3,7": 3,
+      "3,8": 3,
+      "3,9": 3,
+      "3,10": 3,
+      "3,11": 3,
+      "3,12": 3,
+      "3,13": 3,
+      "3,14": 3,
+      "3,15": 3,
+      "3,16": 3,
+      "3,17": 3,
+      "3,18": 4,
+      "4,1": 5,
+      "4,18": 6,
+      "5,1": 5,
+      "5,15": 6,
+      "5,18": 6,
+      "6,1": 5,
+      "6,15": 6,
+      "6,18": 6,
+      "7,1": 5,
+      "7,15": 6,
+      "7,18": 6,
+      "8,1": 5,
+      "8,15": 6,
+      "8,18": 6,
+      "9,1": 5,
+      "9,15": 6,
+      "9,18": 6,
+      "10,1": 5,
+      "10,15": 6,
+      "10,18": 6,
+      "11,1": 5,
+      "11,15": 6,
+      "11,18": 6,
+      "12,1": 5,
+      "12,15": 6,
+      "12,18": 6,
+      "13,1": 5,
+      "13,15": 6,
+      "13,18": 6,
+      "14,1": 5,
+      "14,15": 6,
+      "14,18": 6,
+      "15,1": 5,
+      "15,15": 6,
+      "15,18": 6,
+      "16,1": 7,
+      "16,2": 8,
+      "16,3": 8,
+      "16,4": 8,
+      "16,5": 8,
+      "16,6": 8,
+      "16,7": 8,
+      "16,8": 8,
+      "16,9": 8,
+      "16,10": 8,
+      "16,11": 8,
+      "16,12": 8,
+      "16,13": 8,
+      "16,14": 8,
+      "16,15": 9,
+      "16,16": 8,
+      "16,17": 8,
+      "16,18": 9
+    },
+    "SheetStyle": {
+      "FontFamily": 3
+    }
+  },
+  "Spans": [
+    "1,1,1,15",
+    "4,1,1,4",
+    "4,5,1,4",
+    "4,9,1,4",
+    "4,13,1,3",
+    "5,1,12,18",
+    "4,16,1,3",
+    "1,17,1,2",
+    "3,1,1,4",
+    "3,5,1,4",
+    "3,9,1,4",
+    "3,13,1,3",
+    "3,16,1,3"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 7,
+      "AllowVisitedRoles": [
+        "Administrator",
+        "Piano",
+        "worker"
+      ]
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

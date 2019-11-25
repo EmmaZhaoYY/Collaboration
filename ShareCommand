@@ -1,7 +1,2 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ShareCommand>
-  <Item class="Forguncy.Model.ShareCommandContainer" assembly="Forguncy">
-    <ID>3ab39de0-c42d-47aa-8da1-ee43838b0fe1</ID>
-    <Name>模板命令1</Name>
-  </Item>
-</ShareCommand>
+<ShareCommand />
