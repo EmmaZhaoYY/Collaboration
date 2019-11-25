@@ -81,69 +81,23 @@
   },
   {
     "ModuleName": "iso",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-11-25T16:23:59.5083804+08:00",
-    "ModuleType": 2,
-    "ToRemoveFiles": [
-      "Pages\\iso.json"
-    ]
+    "ModuleType": 2
   },
   {
     "ModuleName": "MainPage",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-11-25T16:23:59.5073805+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\MainPage.json",
-      "Pages\\d0f65459-b517-4dc1-b7eb-4bdbf8940589.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "TrendLine",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-11-25T16:23:59.5083804+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\TrendLine.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "大在",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-11-25T16:23:59.5083804+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\大在.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "销售信息页面",
-    "State": 4,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-11-25T16:23:59.5083804+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\销售信息页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "FGC_母版页",
@@ -183,12 +137,6 @@
   },
   {
     "ModuleName": "Pages\\CheckAppNameBeforePublish",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Sunny",
-      "Email": "Emma@mail.com"
-    },
-    "LockDateTime": "2019-11-25T16:23:40.3213426+08:00",
     "ModuleType": 6
   }
 ]
